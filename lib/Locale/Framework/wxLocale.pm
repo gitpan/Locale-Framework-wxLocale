@@ -4,7 +4,7 @@ use strict;
 use Wx qw(:locale);
 use Wx::Locale qw(:default);
 
-our $VERSION='0.04';
+our $VERSION='0.05';
 
 sub new {
   my $class=shift;
@@ -296,7 +296,7 @@ return "";
 
 =head1 NAME
 
-Locale::Framework::wxLocale - A backend for Locale::Framework internationalization
+Locale::Framework::wxLocale, a WxPerl backend for Locale::Framework
 
 =head1 SYNOPSIS
 
@@ -339,7 +339,7 @@ This function is a noop for this backend.
 
 =head1 SEE ALSO
 
-L<Locale::Framework|Locale::Framework>.
+L<Locale::Framework|Locale::Framework>, L<http://wxperl.sf.net>.
 
 =head1 AUTHOR
 
